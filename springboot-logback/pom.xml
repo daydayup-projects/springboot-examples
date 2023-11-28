@@ -7,12 +7,10 @@
         <artifactId>springboot-examples</artifactId>
         <version>1.0</version>
     </parent>
-
     <artifactId>springboot-logback</artifactId>
     <version>1.0</version>
     <name>springboot-logback</name>
     <description>springboot-logback</description>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -31,7 +29,6 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
