@@ -8,15 +8,10 @@
         <version>1.0</version>
     </parent>
 
-    <groupId>tech.alexchen.daydayup</groupId>
     <artifactId>springboot-logback</artifactId>
     <version>1.0</version>
     <name>springboot-logback</name>
     <description>springboot-logback</description>
-
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -31,7 +26,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.11</version>
+            <version>1.4.7</version>
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
@@ -45,5 +40,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
